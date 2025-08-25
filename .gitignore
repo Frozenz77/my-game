@@ -2,3 +2,6 @@ build.rbxl
 *.rbxlx
 *.rbxm
 .DS_Store
+
+# Local Rojo download
+tools/rojo/rojo
