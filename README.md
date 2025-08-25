@@ -8,8 +8,9 @@ rojo plugin install   # then restart Roblox Studio
 rojo serve
 # In Studio: Plugins → Rojo → Connect (use the port from Terminal)
 
-## Build a place
-rojo build --output build.rbxl
+## Build
+- Local dev: `rojo build --output build.rbxl`
+- Codex/CI: `./scripts/build.sh` (may download Rojo the first time)
 
 ## Layout
 - Client: src/StarterPlayer/StarterPlayerScripts/*.client.lua
