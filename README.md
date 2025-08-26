@@ -1,15 +1,11 @@
 # MyRobloxGame (Rojo v7)
 
-## Install
-brew install rojo
-rojo plugin install   # then restart Roblox Studio
-
-## Live sync
-rojo serve
-# In Studio: Plugins → Rojo → Connect (use the port from Terminal)
-
-## Build a place
-rojo build --output build.rbxl
+## Setup
+1. `brew install rojo`
+2. `rojo plugin install` (then restart Roblox Studio)
+3. `rojo serve`
+   - In Studio: Plugins → Rojo → Connect (use the port from terminal)
+4. `rojo build --output build.rbxl`
 
 ## Layout
 - Client: src/StarterPlayer/StarterPlayerScripts/*.client.lua
